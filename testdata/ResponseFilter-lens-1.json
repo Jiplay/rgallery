@@ -1,0 +1,37 @@
+{
+  "segment": [
+    {
+      "sectionId": "2017-06",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2017-06-24",
+          "i": [
+            [
+              7374,
+              4924,
+              651935749,
+              "#72A5D6"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "total": 1,
+  "pagesize": -1,
+  "page": 1,
+  "orderby": "date",
+  "direction": "desc",
+  "filter": {
+    "camera": "",
+    "lens": "123",
+    "term": "",
+    "type": "",
+    "rating": 0,
+    "subject": "",
+    "folder": "",
+    "software": "",
+    "focalLength35": 0
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "media": {
+    "path": "misc/105-4.jpg",
+    "subjects": [
+      {
+        "key": "kranj",
+        "value": "Kranj"
+      },
+      {
+        "key": "slovenia",
+        "value": "Slovenia"
+      },
+      {
+        "key": "suha-špaga",
+        "value": "Suha špaga"
+      }
+    ],
+    "hash": 525791494,
+    "width": 5951,
+    "height": 3903,
+    "ratio": 0.65585613,
+    "padding": 65.58562,
+    "date": "2022-02-08T13:39:08Z",
+    "modified": "2023-11-21T20:44:53.923Z",
+    "folder": "misc",
+    "srcset": "/img/525791494/200 200w, /img/525791494/400 400w, /img/525791494/800 800w, /img/525791494/1200 1200w, /img/525791494/1800 1800w, /img/525791494/2400 2400w, /img/525791494/4000 4000w",
+    "rating": 1,
+    "shutterspeed": "1/800",
+    "aperture": 5.6,
+    "iso": 100,
+    "lens": "Nikon 105mm f/2.5 AI-s",
+    "camera": "NIKON D750",
+    "focallength": 105,
+    "altitude": 440.6,
+    "latitude": 46.2383166666667,
+    "longitude": 14.3556166666667,
+    "type": "image",
+    "focusDistance": 0,
+    "focalLength35": 105,
+    "color": "#98AEC0",
+    "location": "Kranj, Slovenia",
+    "description": "",
+    "title": "",
+    "software": "Photopea Editor (www.photopea.com)",
+    "offset": 0
+  },
+  "previous": [
+    {
+      "hash": 978459205,
+      "color": "#C1C1C5",
+      "type": "image",
+      "path": "2024/105-5.jpg",
+      "width": 6000,
+      "height": 4006,
+      "srcset": "/img/978459205/200 200w, /img/978459205/400 400w, /img/978459205/800 800w, /img/978459205/1200 1200w, /img/978459205/1800 1800w, /img/978459205/2400 2400w, /img/978459205/4000 4000w"
+    },
+    {
+      "hash": 3180326017,
+      "color": "#174060",
+      "type": "image",
+      "path": "misc/105-1.jpg",
+      "width": 3948,
+      "height": 5976,
+      "srcset": "/img/3180326017/200 200w, /img/3180326017/400 400w, /img/3180326017/800 800w, /img/3180326017/1200 1200w, /img/3180326017/1800 1800w, /img/3180326017/2400 2400w, /img/3180326017/3948 3948w"
+    }
+  ],
+  "next": [
+    {
+      "hash": 3521895387,
+      "color": "#8FB4D5",
+      "type": "image",
+      "path": "misc/105-3.jpg",
+      "width": 6000,
+      "height": 4007,
+      "srcset": "/img/3521895387/200 200w, /img/3521895387/400 400w, /img/3521895387/800 800w, /img/3521895387/1200 1200w, /img/3521895387/1800 1800w, /img/3521895387/2400 2400w, /img/3521895387/4000 4000w"
+    },
+    {
+      "hash": 2341584044,
+      "color": "#CBC8DF",
+      "type": "image",
+      "path": "misc/105-2.jpg",
+      "width": 4102,
+      "height": 2724,
+      "srcset": "/img/2341584044/200 200w, /img/2341584044/400 400w, /img/2341584044/800 800w, /img/2341584044/1200 1200w, /img/2341584044/1800 1800w, /img/2341584044/2400 2400w, /img/2341584044/4000 4000w"
+    }
+  ],
+  "collection": "",
+  "slug": ""
+}

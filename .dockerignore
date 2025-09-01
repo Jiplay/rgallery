@@ -1,0 +1,8 @@
+.drone.yml
+images/*
+images-*/
+cache/*
+cache-*/
+bin
+!pkg/dist/styles/main.js
+!pkg/dist/js/main.css

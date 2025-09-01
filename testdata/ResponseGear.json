@@ -1,0 +1,106 @@
+{
+  "camera": [
+    {
+      "name": "NIKON D800",
+      "total": 7
+    },
+    {
+      "name": "NIKON D750",
+      "total": 2
+    },
+    {
+      "name": "NIKON D700",
+      "total": 2
+    },
+    {
+      "name": "DSC-RX100M2",
+      "total": 2
+    },
+    {
+      "name": "NIKON Z 9",
+      "total": 1
+    },
+    {
+      "name": "NIKON D500",
+      "total": 1
+    }
+  ],
+  "lens": [
+    {
+      "name": "Nikon Ai-s 105mm f/2.5",
+      "total": 5
+    },
+    {
+      "name": "123",
+      "total": 2
+    },
+    {
+      "name": "AF-S Nikkor 16-35mm f/4G ED VR",
+      "total": 2
+    },
+    {
+      "name": "70.0-200.0 mm f/2.8",
+      "total": 1
+    },
+    {
+      "name": "AF Nikkor 50mm f/1.4D",
+      "total": 1
+    },
+    {
+      "name": "Tamron 17-35mm f/2.8-4 Di OSD",
+      "total": 1
+    },
+    {
+      "name": "Tamron 17-35mm f/2.8-4 Di OSD (A037)",
+      "total": 1
+    }
+  ],
+  "focalLength35": [
+    {
+      "name": "105",
+      "total": 5
+    },
+    {
+      "name": "50",
+      "total": 3
+    },
+    {
+      "name": "28",
+      "total": 2
+    },
+    {
+      "name": "17",
+      "total": 2
+    },
+    {
+      "name": "16",
+      "total": 2
+    },
+    {
+      "name": "300",
+      "total": 1
+    }
+  ],
+  "software": [
+    {
+      "name": "Photopea Editor (www.photopea.com)",
+      "total": 6
+    },
+    {
+      "name": "darktable 4.4.2",
+      "total": 3
+    },
+    {
+      "name": "darktable 4.4.0",
+      "total": 3
+    },
+    {
+      "name": "darktable 4.6.0",
+      "total": 2
+    },
+    {
+      "name": "Adobe Bridge 2021 (Windows)",
+      "total": 1
+    }
+  ]
+}

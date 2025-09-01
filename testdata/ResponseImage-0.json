@@ -1,0 +1,107 @@
+{
+  "media": {
+    "path": "2017/20170624-idaho/20170624-sawtooth-mountain-biking-robbymilo-0030.jpg",
+    "subjects": [
+      {
+        "key": "camping",
+        "value": "Camping"
+      },
+      {
+        "key": "idaho",
+        "value": "Idaho"
+      },
+      {
+        "key": "sawtooth-mountains",
+        "value": "Sawtooth Mountains"
+      }
+    ],
+    "hash": 651935749,
+    "width": 7374,
+    "height": 4924,
+    "ratio": 0.66775155,
+    "padding": 66.775154,
+    "date": "2017-06-24T12:03:06.2Z",
+    "modified": "2023-11-21T20:44:53.923Z",
+    "folder": "2017/20170624-idaho",
+    "srcset": "/img/651935749/200 200w, /img/651935749/400 400w, /img/651935749/800 800w, /img/651935749/1200 1200w, /img/651935749/1800 1800w, /img/651935749/2400 2400w, /img/651935749/4000 4000w",
+    "rating": 5,
+    "shutterspeed": "1/25",
+    "aperture": 8,
+    "iso": 100,
+    "lens": "AF-S Nikkor 50mm f/1.8G",
+    "camera": "NIKON D800",
+    "focallength": 50,
+    "altitude": 0,
+    "latitude": 44.2379417333333,
+    "longitude": -114.970481866667,
+    "type": "image",
+    "focusDistance": 6.30957344480193,
+    "focalLength35": 50,
+    "color": "#72A5D6",
+    "location": "Idaho, United States of America",
+    "description": "",
+    "title": "Sawtooth Mountains / Camping",
+    "software": "darktable 4.4.0",
+    "offset": -420
+  },
+  "previous": [
+    {
+      "hash": 3143120676,
+      "color": "#D0D0D0",
+      "type": "image",
+      "path": "2019/20190518-bogus-basin/20190518-shafer-butte-robbymilo-0007.jpg",
+      "width": 4100,
+      "height": 2738,
+      "srcset": "/img/3143120676/200 200w, /img/3143120676/400 400w, /img/3143120676/800 800w, /img/3143120676/1200 1200w, /img/3143120676/1800 1800w, /img/3143120676/2400 2400w, /img/3143120676/4000 4000w"
+    },
+    {
+      "hash": 3455659031,
+      "color": "#999EA2",
+      "type": "image",
+      "path": "2019/20190330-sawtooths/20190330-copper-mtn-robbymilo-1112.jpg",
+      "width": 3000,
+      "height": 2003,
+      "srcset": "/img/3455659031/200 200w, /img/3455659031/400 400w, /img/3455659031/800 800w, /img/3455659031/1200 1200w, /img/3455659031/1800 1800w, /img/3455659031/2400 2400w, /img/3455659031/3000 3000w"
+    },
+    {
+      "hash": 1129346697,
+      "color": "#4E6482",
+      "type": "image",
+      "path": "2018/20180304-bogus/20180304-mores-mountain-ski-robbymilo-0230 2.jpg",
+      "width": 5000,
+      "height": 3338,
+      "srcset": "/img/1129346697/200 200w, /img/1129346697/400 400w, /img/1129346697/800 800w, /img/1129346697/1200 1200w, /img/1129346697/1800 1800w, /img/1129346697/2400 2400w, /img/1129346697/4000 4000w"
+    }
+  ],
+  "next": [
+    {
+      "hash": 3521895387,
+      "color": "#8FB4D5",
+      "type": "image",
+      "path": "misc/105-3.jpg",
+      "width": 6000,
+      "height": 4007,
+      "srcset": "/img/3521895387/200 200w, /img/3521895387/400 400w, /img/3521895387/800 800w, /img/3521895387/1200 1200w, /img/3521895387/1800 1800w, /img/3521895387/2400 2400w, /img/3521895387/4000 4000w"
+    },
+    {
+      "hash": 2341584044,
+      "color": "#CBC8DF",
+      "type": "image",
+      "path": "misc/105-2.jpg",
+      "width": 4102,
+      "height": 2724,
+      "srcset": "/img/2341584044/200 200w, /img/2341584044/400 400w, /img/2341584044/800 800w, /img/2341584044/1200 1200w, /img/2341584044/1800 1800w, /img/2341584044/2400 2400w, /img/2341584044/4000 4000w"
+    },
+    {
+      "hash": 264898052,
+      "color": "#A5B7CD",
+      "type": "image",
+      "path": "2016/boise/20160424-boise-robbymilo-0123.jpg",
+      "width": 2000,
+      "height": 1328,
+      "srcset": "/img/264898052/200 200w, /img/264898052/400 400w, /img/264898052/800 800w, /img/264898052/1200 1200w, /img/264898052/1800 1800w, /img/264898052/2000 2000w"
+    }
+  ],
+  "collection": "",
+  "slug": ""
+}

@@ -1,0 +1,20 @@
+<figure class="mb-4">
+  <img
+    class="lazyload"
+    data-srcset="{{ .srcset }}"
+    alt="{{ .alt }}"
+    {{ if .width }}width="{{ .width }}"{{ end }}
+    {{ if .height }}height="{{ .height }}"{{ end }}
+    data-sizes="auto"
+  />
+  <noscript
+    ><img
+      src="{{ .src }}"
+      alt="{{ .alt }}"
+      {{ if .width }}width="{{ .width }}"{{ end }}
+      {{ if .height }}height="{{ .height }}"{{ end }}
+  /></noscript>
+  {{ with .caption }}
+    <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>

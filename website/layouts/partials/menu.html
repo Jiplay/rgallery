@@ -1,0 +1,65 @@
+<div x-data="menu()">
+  <ul class="menu">
+    {{ with site.GetPage "/docs" }}
+      <div class="menu--group">
+        <li
+          class="font-bold {{ if eq $.RelPermalink .RelPermalink }}
+            menu--current
+          {{ end }}"
+        >
+          <a class="menu-a" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </li>
+      </div>
+      {{ range (.GetPage "docs").Pages }}
+        {{ $has_pages := gt (len .Pages) 0 }}
+
+        {{ $open := false }}
+        {{ range .CurrentSection.Pages }}
+          {{ if eq $.RelPermalink .RelPermalink }}
+            {{ $open = true }}
+          {{ end }}
+        {{ end }}
+        {{ if eq $.RelPermalink .RelPermalink }}
+          {{ $open = true }}
+        {{ end }}
+
+
+        <div class="menu--group {{ if $open }}menu--open{{ end }}">
+          <li
+            class="{{ if eq $has_pages false }}menu--no-nest{{ end }} {{ if eq $.RelPermalink .RelPermalink }}
+              menu--current
+            {{ end }}"
+          >
+            {{ if $has_pages }}
+              <button @click="toggle"></button>
+            {{ end }}
+            <a class="menu-a" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </li>
+          {{ if eq $has_pages true }}
+            {{ $open := false }}
+            {{ range .CurrentSection.Pages }}
+              {{ if eq $.RelPermalink .RelPermalink }}
+                {{ $open = true }}
+              {{ end }}
+            {{ end }}
+            {{ if eq $.RelPermalink .RelPermalink }}
+              {{ $open = true }}
+            {{ end }}
+            <div class="menu--sub {{ if eq $open false }}hidden{{ end }}">
+              {{ range .Pages }}
+                <li
+                  class="{{ if eq $has_pages false }}menu--no-nest{{ end }} {{ if eq $.RelPermalink .RelPermalink }}
+                    menu--current
+                  {{ end }}"
+                >
+                  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                </li>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+
+  </ul>
+</div>

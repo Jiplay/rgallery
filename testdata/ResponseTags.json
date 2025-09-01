@@ -1,0 +1,298 @@
+{
+  "tags": [
+    {
+      "key": "#(state)wildfires",
+      "value": "#(State)Wildfires"
+    },
+    {
+      "key": "#-fire",
+      "value": "# fire"
+    },
+    {
+      "key": "#aerialfirefighting",
+      "value": "#aerialfirefighting"
+    },
+    {
+      "key": "#afreserve",
+      "value": "#afreserve"
+    },
+    {
+      "key": "#airforce",
+      "value": "#airforce"
+    },
+    {
+      "key": "#airnationalguard",
+      "value": "#AirNationalGuard"
+    },
+    {
+      "key": "#c130",
+      "value": "#C130"
+    },
+    {
+      "key": "#c130h",
+      "value": "#C130H"
+    },
+    {
+      "key": "#c130j",
+      "value": "#C130J"
+    },
+    {
+      "key": "#californiawildfires",
+      "value": "#CaliforniaWildfires"
+    },
+    {
+      "key": "#fireaviation",
+      "value": "#fireaviation"
+    },
+    {
+      "key": "#fireseason",
+      "value": "#fireseason"
+    },
+    {
+      "key": "#fireseason2021",
+      "value": "#fireseason2021"
+    },
+    {
+      "key": "#hollywoodguardforever",
+      "value": "#HollywoodGuardForever"
+    },
+    {
+      "key": "#maffsaeg",
+      "value": "#MAFFSAEG"
+    },
+    {
+      "key": "#military",
+      "value": "#Military"
+    },
+    {
+      "key": "#petersonafb",
+      "value": "#petersonafb"
+    },
+    {
+      "key": "#reserveready",
+      "value": "#reserveready"
+    },
+    {
+      "key": "#reserveresilient",
+      "value": "#reserveresilient"
+    },
+    {
+      "key": "#tanker",
+      "value": "#tanker"
+    },
+    {
+      "key": "#usafreserve",
+      "value": "#usafreserve"
+    },
+    {
+      "key": "#usfwsnews",
+      "value": "#USFWSNews"
+    },
+    {
+      "key": "#wildfire",
+      "value": "#Wildfire"
+    },
+    {
+      "key": "#wildfireseason",
+      "value": "#wildfireseason"
+    },
+    {
+      "key": "@146thairliftwing",
+      "value": "@146thAirliftWing"
+    },
+    {
+      "key": "@152aw",
+      "value": "@152AW"
+    },
+    {
+      "key": "@302aw",
+      "value": "@302AW"
+    },
+    {
+      "key": "@acconfb",
+      "value": "@acconfb"
+    },
+    {
+      "key": "@aegmaffs",
+      "value": "@AEGMAFFS"
+    },
+    {
+      "key": "@blmfire",
+      "value": "@blmfire"
+    },
+    {
+      "key": "@blmnational",
+      "value": "@blmnational"
+    },
+    {
+      "key": "@caguard",
+      "value": "@CAGUARD"
+    },
+    {
+      "key": "@calfire",
+      "value": "@calfire"
+    },
+    {
+      "key": "@firstairforce",
+      "value": "@FirstAirForce"
+    },
+    {
+      "key": "@fox11reno",
+      "value": "@fox11reno"
+    },
+    {
+      "key": "@hqcaang",
+      "value": "@HQCAANG"
+    },
+    {
+      "key": "@krnv",
+      "value": "@KRNV"
+    },
+    {
+      "key": "@nationalguard",
+      "value": "@nationalguard"
+    },
+    {
+      "key": "@nevadanationalguard",
+      "value": "@NevadaNationalGuard"
+    },
+    {
+      "key": "@news3lv",
+      "value": "@News3LV"
+    },
+    {
+      "key": "@newstalk780koh",
+      "value": "@NewsTalk780KOH"
+    },
+    {
+      "key": "@nifcfire",
+      "value": "@NIFCFire"
+    },
+    {
+      "key": "@rgj",
+      "value": "@rgj"
+    },
+    {
+      "key": "@thisisreno",
+      "value": "@ThisIsReno"
+    },
+    {
+      "key": "@usafreserve",
+      "value": "@usafreserve"
+    },
+    {
+      "key": "@usairforce",
+      "value": "@usairforce"
+    },
+    {
+      "key": "@usarmynorth",
+      "value": "@USArmyNorth"
+    },
+    {
+      "key": "@usda",
+      "value": "@usda"
+    },
+    {
+      "key": "@usforestservice",
+      "value": "@usforestservice"
+    },
+    {
+      "key": "@usnorthcom",
+      "value": "@USNORTHCOM"
+    },
+    {
+      "key": "@wyomingstatefiremarshalsoffice",
+      "value": "@WyomingStateFireMarshalsOffice"
+    },
+    {
+      "key": "aegmaffs",
+      "value": "AEGMAFFS"
+    },
+    {
+      "key": "banner-summit",
+      "value": "Banner Summit"
+    },
+    {
+      "key": "bogus-basin",
+      "value": "Bogus Basin"
+    },
+    {
+      "key": "boise",
+      "value": "Boise"
+    },
+    {
+      "key": "boise-foothills",
+      "value": "Boise Foothills"
+    },
+    {
+      "key": "boise-national-forest",
+      "value": "Boise National Forest"
+    },
+    {
+      "key": "camping",
+      "value": "Camping"
+    },
+    {
+      "key": "deer-point",
+      "value": "Deer Point"
+    },
+    {
+      "key": "hiking",
+      "value": "Hiking"
+    },
+    {
+      "key": "idaho",
+      "value": "Idaho"
+    },
+    {
+      "key": "kamnik-savinja",
+      "value": "Kamnik-Savinja"
+    },
+    {
+      "key": "kranj",
+      "value": "Kranj"
+    },
+    {
+      "key": "maffs",
+      "value": "MAFFS"
+    },
+    {
+      "key": "maffsaeg",
+      "value": "MAFFSAEG"
+    },
+    {
+      "key": "mores-mountain",
+      "value": "Mores Mountain"
+    },
+    {
+      "key": "oregon",
+      "value": "Oregon"
+    },
+    {
+      "key": "owyhee",
+      "value": "Owyhee"
+    },
+    {
+      "key": "sawtooth-mountains",
+      "value": "Sawtooth Mountains"
+    },
+    {
+      "key": "ski-touring",
+      "value": "Ski Touring"
+    },
+    {
+      "key": "slovenia",
+      "value": "Slovenia"
+    },
+    {
+      "key": "suha-špaga",
+      "value": "Suha špaga"
+    }
+  ],
+  "title": "Tags",
+  "total": 72,
+  "pagesize": -1,
+  "page": 1,
+  "orderby": "date",
+  "direction": "asc"
+}

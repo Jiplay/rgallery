@@ -1,0 +1,39 @@
+{
+  "name": "rgallery",
+  "main": "assets/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbymilo/rgallery.git"
+  },
+  "author": "Robby Milo",
+  "bugs": {
+    "url": "https://github.com/robbymilo/rgallery/issues"
+  },
+  "homepage": "https://github.com/robbymilo/rgallery#readme",
+  "dependencies": {
+    "@alpinejs/persist": "^3.13.7",
+    "@glidejs/glide": "github:robbymilo/glide",
+    "@panzoom/panzoom": "^4.5.1",
+    "alpinejs": "^3.14.8",
+    "esbuild": "^0.24.2",
+    "hls.js": "^1.5.7",
+    "javascript-flex-images": "github:robbymilo/JavaScript-flexImages",
+    "justified-layout": "^4.1.0",
+    "lazysizes": "^5.3.2",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "rfs": "^10.0.0"
+  },
+  "devDependencies": {
+    "@jgoz/esbuild-plugin-livereload": "^2.1.2",
+    "esbuild": "0.23.0",
+    "esbuild-plugin-svgr": "^3.1.0",
+    "esbuild-sass-plugin": "^3.3.1",
+    "prettier": "3.6.2",
+    "prettier-plugin-css-order": "^2.1.2",
+    "prettier-plugin-go-template": "^0.0.15"
+  },
+  "engines": {
+    "node": ">=20.18.3"
+  }
+}

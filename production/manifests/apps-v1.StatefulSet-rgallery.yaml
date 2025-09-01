@@ -1,0 +1,77 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  labels:
+    tanka.dev/environment: d27bf86124985ad6e55c06083006bc0c8c253f895c2fcb30
+  name: rgallery
+  namespace: rgallery
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: rgallery
+  serviceName: rgallery
+  template:
+    metadata:
+      annotations:
+        configVersion: d41d8cd98f00b204e9800998ecf8427e
+      labels:
+        name: rgallery
+    spec:
+      containers:
+      - command:
+        - /usr/bin/rgallery
+        - --include-originals=false
+        env:
+        - name: TZ
+          value: Europe/Stockholm
+        image: robbymilo/rgallery:latest
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 4
+          httpGet:
+            path: /healthz
+            port: 3000
+          initialDelaySeconds: 1
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 10
+        name: rgallery
+        ports:
+        - containerPort: 3000
+          name: rgallery
+        - containerPort: 3001
+          name: metrics
+        readinessProbe:
+          failureThreshold: 4
+          httpGet:
+            path: /healthz
+            port: 3000
+          initialDelaySeconds: 1
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 10
+        volumeMounts:
+        - mountPath: /cache
+          name: rgallery-cache
+        - mountPath: /media
+          name: rgallery-media
+        - mountPath: /data
+          name: rgallery-data
+        - mountPath: /config
+          name: rgallery-config
+      volumes:
+      - name: rgallery-media
+        persistentVolumeClaim:
+          claimName: rgallery-media
+      - name: rgallery-cache
+        persistentVolumeClaim:
+          claimName: rgallery-cache
+      - name: rgallery-data
+        persistentVolumeClaim:
+          claimName: rgallery-data
+      - configMap:
+          name: rgallery-config
+        name: rgallery-config
+  updateStrategy:
+    type: RollingUpdate

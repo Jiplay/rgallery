@@ -1,0 +1,25 @@
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ end }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:image" content="{{ .Params.featured_image | absURL }}" />
+<meta property="og:image:alt" content="{{ .Params.description }}" />
+
+{{ if .IsPage }}
+  {{ if not .PublishDate.IsZero }}
+    <meta
+      property="article:published_time"
+      content="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}"
+    />
+  {{ else if not .Date.IsZero }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
+  {{ end }}
+  {{ if not .Lastmod.IsZero }}
+    <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
+  {{ end }}
+{{ else }}
+  {{ if not .Date.IsZero }}
+    <meta property="og:updated_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
+  {{ end }}
+{{ end }}

@@ -1,0 +1,61 @@
+{{ define "main" }}
+  <div x-data="{ open: false }" class="max-w-7xl mx-auto p-5 relative pt-18">
+    <button
+      type="button"
+      class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset sm:hidden"
+      aria-controls="mobile-menu"
+      aria-expanded="false"
+      @click="open = !open"
+    >
+      <span class="absolute -inset-0.5"></span>
+      <span class="sr-only">Open main menu</span>
+      <svg
+        class="w-6 h-6"
+        aria-hidden="true"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+        x-show="!open"
+      >
+        <path
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
+        ></path>
+      </svg>
+      <svg
+        class="size-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        aria-hidden="true"
+        data-slot="icon"
+        x-show="open"
+        x-cloak
+      >
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+    <aside
+      id="default-sidebar"
+      class="fixed top-14 left-0 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 z-3"
+      :class="{ 'translate-x-0': open, '-translate-x-full': !open }"
+      aria-label="Sidebar"
+    >
+      <div class="h-full sticky top-0 px-3 py-4 bg-gray-700">
+        {{ partial "menu" . }}
+      </div>
+    </aside>
+
+    <div class="max-w-4xl p-2 md:px-12 sm:ml-64 min-h-screen" @click="open = false">
+      <div class="pb-4">
+        {{ partial "breadcrumb" . }}
+      </div>
+      <div class="main">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+{{ end }}

@@ -1,0 +1,61 @@
+{
+  "media": {
+    "path": "2016/boise/20160424-boise-robbymilo-0123.jpg",
+    "subjects": [
+      {
+        "key": "boise-foothills",
+        "value": "Boise Foothills"
+      },
+      {
+        "key": "hiking",
+        "value": "Hiking"
+      },
+      {
+        "key": "idaho",
+        "value": "Idaho"
+      }
+    ],
+    "hash": 264898052,
+    "width": 2000,
+    "height": 1328,
+    "ratio": 0.664,
+    "padding": 66.399994,
+    "date": "2016-04-25T02:52:27.73Z",
+    "modified": "2023-11-21T20:44:53.923Z",
+    "folder": "2016/boise",
+    "srcset": "/img/264898052/200 200w, /img/264898052/400 400w, /img/264898052/800 800w, /img/264898052/1200 1200w, /img/264898052/1800 1800w, /img/264898052/2000 2000w",
+    "rating": 1,
+    "shutterspeed": "1/1000",
+    "aperture": 2,
+    "iso": 200,
+    "lens": "AF Nikkor 50mm f/1.4D",
+    "camera": "NIKON D700",
+    "focallength": 50,
+    "altitude": 0,
+    "latitude": 0,
+    "longitude": 0,
+    "type": "image",
+    "focusDistance": 2.98538261891796,
+    "focalLength35": 50,
+    "color": "#A5B7CD",
+    "location": "",
+    "description": "Spring wildflowers in the Boise Foothills.",
+    "title": "Boise Foothills / Hiking",
+    "software": "darktable 4.4.2",
+    "offset": -360
+  },
+  "previous": [
+    {
+      "hash": 651935749,
+      "color": "#72A5D6",
+      "type": "image",
+      "path": "2017/20170624-idaho/20170624-sawtooth-mountain-biking-robbymilo-0030.jpg",
+      "width": 7374,
+      "height": 4924,
+      "srcset": "/img/651935749/200 200w, /img/651935749/400 400w, /img/651935749/800 800w, /img/651935749/1200 1200w, /img/651935749/1800 1800w, /img/651935749/2400 2400w, /img/651935749/4000 4000w"
+    }
+  ],
+  "next": [],
+  "collection": "",
+  "slug": ""
+}

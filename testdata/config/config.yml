@@ -1,0 +1,8 @@
+aliases:
+  lenses: # exif:alias
+    'Nikon 105mm f/2.5 Ai-s': 'Nikon Ai-s 105mm f/2.5'
+    'Nikon 105mm f/2.5 AI-s': 'Nikon Ai-s 105mm f/2.5'
+    'Nikon AI-s 105mm f/2.5': 'Nikon Ai-s 105mm f/2.5'
+    'Nikon AI-s 105mm f/2.5   ': 'Nikon Ai-s 105mm f/2.5'
+    'Nikon 105mm f/2.5 Ai-s ': 'Nikon Ai-s 105mm f/2.5'
+    'AF-S Nikkor 50mm f/1.8G': '123'

@@ -1,0 +1,4 @@
+{{ $relPath := .Get 0 }}
+{{ $format := .Get 1 | default "yaml " }}
+
+{{ partial "get-resource" (dict "relPath" $relPath "format" $format) }}

@@ -1,0 +1,29 @@
+{{ range $i, $e := .Params.features }}
+  <section class="px-8 py-2 max-w-screen-xl mx-auto">
+    {{ with $e }}
+      <div class="grid md:grid-cols-2 md:items-center gap-10 md:h-[400px]">
+        <div class="shadow-lg md:order-{{ if modBool $i 2 }}1{{ else }}2{{ end }}">
+          {{ with .image }}
+            <img
+              class="lazyload w-full"
+              data-srcset="{{ .srcset }}"
+              alt="{{ $e.title }}"
+              {{ with .width }}width="{{ . }}"{{ end }}
+              {{ with .height }}height="{{ . }}"{{ end }}
+              data-sizes="auto"
+            />
+          {{ end }}
+          {{ with .video }}
+            <video src="{{ .src }}" class="lazyload" data-autoplay muted loop playsinline></video>
+          {{ end }}
+        </div>
+        <div class="md:order-{{ if modBool $i 2 }}2{{ else }}1{{ end }}">
+          <h2 class="text-2xl font-bold mb-4">{{ .title }}</h2>
+          <p class="text-gray-600">
+            {{ .content | markdownify }}
+          </p>
+        </div>
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

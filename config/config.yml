@@ -1,0 +1,17 @@
+aliases:
+  lenses: # exif:alias
+    '17-35mm f/2.8-4E': Tamron 17-35mm f/2.8-4 Di OSD
+    'Tamron 17-35mm f/2.8-4 Di OSD (A037)': Tamron 17-35mm f/2.8-4 Di OSD
+    'Tamron 17-35mm f/2.8-4 Di OSD': Tamron 17-35mm f/2.8-4 Di OSD
+    'Nikon 105mm f/2.5 Ai-s': 'Nikon Ai-s 105mm f/2.5'
+    'Nikon 105mm f/2.5 AI-s': 'Nikon Ai-s 105mm f/2.5'
+    'Nikon AI-s 105mm f/2.5': 'Nikon Ai-s 105mm f/2.5'
+    'Nikon AI-s 105mm f/2.5   ': 'Nikon Ai-s 105mm f/2.5'
+    'Nikon 105mm f/2.5 Ai-s ': 'Nikon Ai-s 105mm f/2.5'
+    'VR 70-200mm f/2.8G': 'AF-S Nikkor 70-200mm f/2.8G ED VR II'
+    'AF-S Nikkor 70-200mm f/2.8G ED VR II': 'AF-S Nikkor 70-200mm f/2.8G ED VR II'
+custom_html: |
+  <script>
+    console.log('custom html');
+  </script>
+

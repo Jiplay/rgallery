@@ -1,0 +1,84 @@
+{
+  "media": {
+    "path": "2018/20180304-bogus/20180304-mores-mountain-ski-robbymilo-0230 2.jpg",
+    "subjects": [
+      {
+        "key": "deer-point",
+        "value": "Deer Point"
+      },
+      {
+        "key": "idaho",
+        "value": "Idaho"
+      },
+      {
+        "key": "mores-mountain",
+        "value": "Mores Mountain"
+      },
+      {
+        "key": "ski-touring",
+        "value": "Ski Touring"
+      }
+    ],
+    "hash": 1129346697,
+    "width": 5000,
+    "height": 3338,
+    "ratio": 0.6676,
+    "padding": 66.759995,
+    "date": "2018-03-04T23:18:25Z",
+    "modified": "2023-11-21T20:44:53.923Z",
+    "folder": "2018/20180304-bogus",
+    "srcset": "/img/1129346697/200 200w, /img/1129346697/400 400w, /img/1129346697/800 800w, /img/1129346697/1200 1200w, /img/1129346697/1800 1800w, /img/1129346697/2400 2400w, /img/1129346697/4000 4000w",
+    "rating": 0,
+    "shutterspeed": "1/400",
+    "aperture": 8,
+    "iso": 100,
+    "lens": "AF-S Nikkor 16-35mm f/4G ED VR",
+    "camera": "NIKON D800",
+    "focallength": 16,
+    "altitude": 0,
+    "latitude": 43.7920333333333,
+    "longitude": -116.0904,
+    "type": "image",
+    "focusDistance": 1.99526231496888,
+    "focalLength35": 16,
+    "color": "#4E6482",
+    "location": "Idaho, United States of America",
+    "description": "",
+    "title": "Bogus Basin / Ski Touring",
+    "software": "darktable 4.6.0",
+    "offset": -420
+  },
+  "previous": [
+    {
+      "hash": 3143120676,
+      "color": "#D0D0D0",
+      "type": "image",
+      "path": "2019/20190518-bogus-basin/20190518-shafer-butte-robbymilo-0007.jpg",
+      "width": 4100,
+      "height": 2738,
+      "srcset": "/img/3143120676/200 200w, /img/3143120676/400 400w, /img/3143120676/800 800w, /img/3143120676/1200 1200w, /img/3143120676/1800 1800w, /img/3143120676/2400 2400w, /img/3143120676/4000 4000w"
+    }
+  ],
+  "next": [
+    {
+      "hash": 2939400013,
+      "color": "#ADA495",
+      "type": "image",
+      "path": "2015/boise/20150111rmilo-0776.jpg",
+      "width": 2000,
+      "height": 1337,
+      "srcset": "/img/2939400013/200 200w, /img/2939400013/400 400w, /img/2939400013/800 800w, /img/2939400013/1200 1200w, /img/2939400013/1800 1800w, /img/2939400013/2000 2000w"
+    },
+    {
+      "hash": 3216513272,
+      "color": "#808080",
+      "type": "image",
+      "path": "2015/boise/20150111rmilo-0775.jpg",
+      "width": 2000,
+      "height": 1337,
+      "srcset": "/img/3216513272/200 200w, /img/3216513272/400 400w, /img/3216513272/800 800w, /img/3216513272/1200 1200w, /img/3216513272/1800 1800w, /img/3216513272/2000 2000w"
+    }
+  ],
+  "collection": "",
+  "slug": ""
+}

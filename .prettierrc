@@ -1,0 +1,19 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "printWidth": 120,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "goTemplateBracketSpacing": true,
+  "plugins": ["prettier-plugin-go-template", "prettier-plugin-css-order"],
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "parser": "go-template"
+      }
+    }
+  ]
+}

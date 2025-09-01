@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ .Title }}</title>
+    {{ with (templates.Defer (dict "key" "global")) }}
+      {{ partialCached "css.html" . }}
+    {{ end }}
+    {{- partial "opengraph.html" . -}}
+    {{ partialCached "scripts" . }}
+    <style>
+      .lazyload,
+      .lazyloading {
+        opacity: 0;
+      }
+      .lazyloaded {
+        opacity: 1;
+        transition: opacity 0.1s;
+      }
+      img[data-sizes='auto'] {
+        max-width: 100%;
+      }
+      img.lazyload:not([src]) {
+        visibility: hidden;
+      }
+      [x-cloak=''] {
+        display: none;
+      }
+    </style>
+    <noscript>
+      <style>
+        .lazyload {
+          display: none;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body class="section-{{ .Section }}">
+    {{ partial "nav" . }}
+    {{ block "main" . }}
+    {{ end }}
+    {{ partial "footer" . }}
+    {{ if hugo.IsProduction }}
+      <noscript>
+        <img src="https://shynet.rmilo.dev/ingress/5810a1be-9ebc-482c-8d5a-f2c7f3283e88/pixel.gif" />
+      </noscript>
+      <script defer src="https://shynet.rmilo.dev/ingress/5810a1be-9ebc-482c-8d5a-f2c7f3283e88/script.js"></script>
+    {{ end }}
+  </body>
+</html>

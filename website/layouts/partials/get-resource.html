@@ -1,0 +1,19 @@
+{{ $relPath := .relPath }}
+{{ $format := .format | default "yaml " }}
+{{ $code := .code | default true }}
+{{ $res := resources.Get (print $relPath) }}
+
+{{ $content := "" }}
+{{ if $res }}
+  {{ $content = $res.Content }}
+{{ else }}
+  {{ errorf "File not found: %s" $relPath }}
+{{ end }}
+
+{{ if $code }}
+  {{ $content = print "```" $format "\n" $content "\n```" | markdownify | safeHTML }}
+{{ else }}
+  {{ $content = $res.Content }}
+{{ end }}
+
+{{ return $content }}

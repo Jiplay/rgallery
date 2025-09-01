@@ -1,0 +1,105 @@
+{
+  "segment": [
+    {
+      "sectionId": "2019-05",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2019-05-18",
+          "i": [
+            [
+              4100,
+              2738,
+              3143120676,
+              "#D0D0D0"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "2019-03",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2019-03-30",
+          "i": [
+            [
+              3000,
+              2003,
+              3455659031,
+              "#999EA2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "2018-03",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2018-03-04",
+          "i": [
+            [
+              5000,
+              3338,
+              1129346697,
+              "#4E6482"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "2017-06",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2017-06-24",
+          "i": [
+            [
+              7374,
+              4924,
+              651935749,
+              "#72A5D6"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "2017-04",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2017-04-14",
+          "i": [
+            [
+              6000,
+              4007,
+              3521895387,
+              "#8FB4D5"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "total": 5,
+  "pagesize": -1,
+  "page": 1,
+  "orderby": "date",
+  "direction": "desc",
+  "filter": {
+    "camera": "NIKON D800",
+    "lens": "",
+    "term": "",
+    "type": "",
+    "rating": 0,
+    "subject": "",
+    "folder": "",
+    "software": "",
+    "focalLength35": 0
+  }
+}

@@ -1,0 +1,10 @@
+{{ define "img" }}
+  <img
+    data-srcset="{{ .Srcset }}"
+    class="lazyload"
+    data-sizes="auto"
+    alt="{{ .Path | replace " " "%20" }}"
+    width="{{ .Width }}"
+    height="{{ .Height }}"
+  />
+{{ end }}

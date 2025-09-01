@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  labels:
+    tanka.dev/environment: d27bf86124985ad6e55c06083006bc0c8c253f895c2fcb30
+  name: rgallery-data
+spec:
+  accessModes:
+  - ReadWriteOnce
+  capacity:
+    storage: 20Gi
+  hostPath:
+    path: /mnt/rgallery/data
+  storageClassName: ""

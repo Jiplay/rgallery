@@ -1,0 +1,19 @@
+services:
+  rgallery:
+    image: robbymilo/rgallery:latest
+    # entrypoint:
+    #   - rgallery
+    #   - --data=./data # override database directory
+    #   - --cache=./cache # override cache directory
+    #   - --quality=60 # override thumbnail quality
+    #   - --location-dataset=Countries10 # use lower resolution reverse geocode dataset
+    #   - --tile-server=https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=<replace-with-your-API-key>
+    #   - --include-originals=true # include originals in web view.
+    # platform: linux/arm64
+    platform: linux/amd64
+    volumes:
+      - ./media:/media:ro # path to your media files
+      - ./data:/data # path to the rgallery database directory
+      - ./cache:/cache # path to the rgallery cache directory
+    ports:
+      - 3000:3000

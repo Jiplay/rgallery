@@ -1,0 +1,316 @@
+@import 'tailwindcss';
+@import 'fonts/onest.css';
+@source "hugo_stats.json";
+
+@theme {
+  --color-zinc: rgb(31, 37, 43);
+}
+
+body {
+  font-family: "Onest", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main {
+  h1 {
+    @apply text-4xl font-bold leading-none tracking-tight md:text-4xl xl:text-4xl;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold mb-3 tracking-tight;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold mb-2 tracking-tight;
+  }
+
+  h4 {
+    @apply text-xl font-semibold mb-1 tracking-tight;
+  }
+
+  h5 {
+    @apply text-lg font-semibold tracking-tight;
+  }
+
+  h6 {
+    @apply text-base font-semibold tracking-tight;
+  }
+
+  ul,
+  ol {
+    @apply mb-4 pl-4 list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+
+
+  blockquote {
+    @apply px-4 py-2 border-l-4 mb-4;
+    border-color: var(--color-green-500);
+    background-color: var(--color-green-50);
+
+    p {
+      @apply my-1;
+    }
+  }
+
+  table {
+    @apply w-full border-collapse mb-4;
+  }
+
+  th,
+  td {
+    @apply p-2 border;
+    border-color: var(--color-zinc);
+  }
+
+  th {
+    @apply bg-zinc-100 text-left;
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  pre {
+    border-radius: 12px;
+    padding: 1rem;
+    overflow: scroll;
+  }
+
+  a {
+    @apply underline;
+  }
+
+  figcaption {
+    @apply text-sm my-1;
+  }
+}
+
+.section-docs {
+  h1 {
+    @apply text-4xl font-semibold leading-none pb-4;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold tracking-normal mt-6 pb-3;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold tracking-normal mt-6 pb-2;
+  }
+
+  h4 {
+    @apply text-xl font-semibold tracking-normal mt-6 pb-1;
+  }
+
+  h5 {
+    @apply text-lg font-semibold tracking-normal;
+  }
+
+  h6 {
+    @apply text-base font-semibold tracking-normal;
+  }
+}
+
+.btn {
+  @apply font-semibold py-2 px-4 mr-2 rounded;
+}
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+.btn-white {
+  @apply bg-white text-black;
+}
+.btn-white:hover {
+  @apply bg-gray-200;
+}
+
+.main .btn {
+  @apply no-underline hover:no-underline;
+}
+
+.menu {
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+}
+.menu ul {
+  margin-bottom: 0px;
+  padding-left: 2px;
+}
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.1s;
+  margin-bottom: 0px;
+  border-top: 1.5px solid transparent;
+  border-right: 1.5px solid transparent;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  border-radius: 6px;
+  min-height: 30px;
+  list-style: none;
+}
+.menu li:last-child {
+  margin-bottom: 0px;
+}
+.menu li:hover {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+.menu li:hover a {
+  opacity: 1;
+  text-decoration: none;
+}
+.menu li.menu--no-nest {
+  padding-left: 26px;
+}
+.menu li.menu--current {
+  transition: 0.1s;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding-left: 0px;
+}
+.menu li.menu--current.menu--no-nest {
+  padding-left: 26px;
+}
+.menu li.menu--current:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu li.menu--current button:first-of-type:after {
+  stroke: white;
+  opacity: 1;
+}
+.menu li.menu--current a:first-of-type {
+  opacity: 1;
+}
+.menu--section {
+  padding: 2px 8px;
+}
+.menu--group:last-child {
+  margin-bottom: 30px;
+}
+.menu a {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  transition: 0.1s;
+  padding: 4px 8px 4px 12px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  word-wrap: anywhere;
+}
+.menu button {
+  align-self: baseline;
+  transition: 0.2s;
+  cursor: pointer;
+  border: none;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 6px;
+  background: none;
+  padding: 0 1px 4px 9px;
+  width: 27px;
+  height: 100%;
+  min-height: 28px;
+}
+.menu button:after {
+  content: url('/arrow-closed.svg');
+}
+.menu--open button:first-of-type {
+  margin-top: 0px;
+}
+.menu--open button:first-of-type:after {
+  content: url('/arrow-open.svg');
+}
+
+.menu--bold {
+  font-weight: 600;
+}
+.menu--bold a {
+  color: white;
+}
+.menu--active {
+  opacity: 1;
+}
+.menu--sub {
+  margin-left: 1rem;
+  border-left: 1.5px solid rgba(255, 255, 255, 0.15);
+  padding-left: 1rem;
+}
+
+.highlight {
+  @apply pb-4;
+}
+
+.main a.no-underline {
+  @apply no-underline hover:no-underline;
+}
+
+.image-container {
+  position: relative;
+  transition: height 0.4s ease;
+  height: 400px;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+}
+
+.fade-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  width: 100%;
+  height: 300px;
+  pointer-events: none;
+  content: '';
+}
+
+.expand-btn {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  z-index: 2;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  width: 42px;
+  height: 42px;
+  color: white;
+  font-size: 18px;
+}
+
+.plus-icon {
+  @apply text-4xl;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  transition: transform 0.3s ease;
+}
+
+.plus-icon.rotated {
+  left: 12px;
+  transform: rotate(45deg);
+}

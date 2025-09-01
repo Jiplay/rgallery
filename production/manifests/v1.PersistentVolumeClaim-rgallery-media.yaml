@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  labels:
+    tanka.dev/environment: d27bf86124985ad6e55c06083006bc0c8c253f895c2fcb30
+  name: rgallery-media
+  namespace: rgallery
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 20Gi
+  storageClassName: ""
+  volumeName: rgallery-media

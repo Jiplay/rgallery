@@ -1,0 +1,74 @@
+{
+  "media": {
+    "path": "2015/boise/20150111rmilo-0775.jpg",
+    "subjects": [
+      {
+        "key": "bogus-basin",
+        "value": "Bogus Basin"
+      },
+      {
+        "key": "boise",
+        "value": "Boise"
+      },
+      {
+        "key": "boise-national-forest",
+        "value": "Boise National Forest"
+      },
+      {
+        "key": "idaho",
+        "value": "Idaho"
+      }
+    ],
+    "hash": 3216513272,
+    "width": 2000,
+    "height": 1337,
+    "ratio": 0.6685,
+    "padding": 66.85,
+    "date": "2015-01-11T16:22:34Z",
+    "modified": "2023-11-21T20:44:53.923Z",
+    "folder": "2015/boise",
+    "srcset": "/img/3216513272/200 200w, /img/3216513272/400 400w, /img/3216513272/800 800w, /img/3216513272/1200 1200w, /img/3216513272/1800 1800w, /img/3216513272/2000 2000w",
+    "rating": 1,
+    "shutterspeed": "1/1000",
+    "aperture": 6.3,
+    "iso": 160,
+    "lens": "",
+    "camera": "DSC-RX100M2",
+    "focallength": 10.4,
+    "altitude": 0,
+    "latitude": 0,
+    "longitude": 0,
+    "type": "image",
+    "focusDistance": 0,
+    "focalLength35": 28,
+    "color": "#808080",
+    "location": "",
+    "description": "Sun shining through fog on the ski patrol building at Bogus Basin.",
+    "title": "Bogus Basin / Skiing",
+    "software": "darktable 4.4.2",
+    "offset": 0
+  },
+  "previous": [
+    {
+      "hash": 264898052,
+      "color": "#A5B7CD",
+      "type": "image",
+      "path": "2016/boise/20160424-boise-robbymilo-0123.jpg",
+      "width": 2000,
+      "height": 1328,
+      "srcset": "/img/264898052/200 200w, /img/264898052/400 400w, /img/264898052/800 800w, /img/264898052/1200 1200w, /img/264898052/1800 1800w, /img/264898052/2000 2000w"
+    },
+    {
+      "hash": 2939400013,
+      "color": "#ADA495",
+      "type": "image",
+      "path": "2015/boise/20150111rmilo-0776.jpg",
+      "width": 2000,
+      "height": 1337,
+      "srcset": "/img/2939400013/200 200w, /img/2939400013/400 400w, /img/2939400013/800 800w, /img/2939400013/1200 1200w, /img/2939400013/1800 1800w, /img/2939400013/2000 2000w"
+    }
+  ],
+  "next": [],
+  "collection": "",
+  "slug": ""
+}

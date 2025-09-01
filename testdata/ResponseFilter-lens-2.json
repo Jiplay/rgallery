@@ -1,0 +1,105 @@
+{
+  "segment": [
+    {
+      "sectionId": "2024-12",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2024-12-15",
+          "i": [
+            [
+              6000,
+              4006,
+              978459205,
+              "#C1C1C5"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "2022-03",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2022-03-13",
+          "i": [
+            [
+              3948,
+              5976,
+              3180326017,
+              "#174060"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "2022-02",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2022-02-08",
+          "i": [
+            [
+              5951,
+              3903,
+              525791494,
+              "#98AEC0"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "2017-04",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2017-04-14",
+          "i": [
+            [
+              6000,
+              4007,
+              3521895387,
+              "#8FB4D5"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "2016-05",
+      "totalItems": 1,
+      "segments": [
+        {
+          "s": "2016-05-14",
+          "i": [
+            [
+              4102,
+              2724,
+              2341584044,
+              "#CBC8DF"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "total": 5,
+  "pagesize": -1,
+  "page": 1,
+  "orderby": "date",
+  "direction": "desc",
+  "filter": {
+    "camera": "",
+    "lens": "Nikon Ai-s 105mm f/2.5",
+    "term": "",
+    "type": "",
+    "rating": 0,
+    "subject": "",
+    "folder": "",
+    "software": "",
+    "focalLength35": 0
+  }
+}

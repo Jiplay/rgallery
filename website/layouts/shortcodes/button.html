@@ -1,0 +1,12 @@
+{{ $url := .Get "href" }}
+{{ $color := .Get "color" | default "blue" }}
+{{- if strings.HasPrefix $url "http" -}}
+  <a class="btn btn-{{ $color }} inline-flex" href="{{ $url }}" target="_blank" rel="noreferrer nofollow"
+    >{{ .Get "text" | safeHTML }}
+    <span class="inline-block px-1 m-auto">
+      {{ readFile "static/external.svg" | safeHTML }}
+    </span></a
+  >
+{{- else -}}
+  <a class="btn btn-{{ $color }}" href="{{ $url }}">{{ .Get "text" | safeHTML }}</a>
+{{- end -}}
