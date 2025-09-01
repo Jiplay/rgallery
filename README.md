@@ -1,6 +1,6 @@
 # rgallery
 
-https://github.com/user-attachments/assets/9581a5e2-3862-42b5-850d-a0dd5ac21059
+<img width="1800" height="1012" alt="rgallery-readme" src="https://github.com/user-attachments/assets/0871bbd6-3a5c-455a-90e5-0f19edf01729" />
 
 ## About
 
