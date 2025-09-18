@@ -56,10 +56,11 @@ run:
 MEDIA_PATH ?= ./media
 DATA_PATH ?= ./data
 CACHE_PATH ?= ./cache
+PORT ?= 3001
 
 .PHONY: run-server
 run-server:
-	go run $(FLAGS) ./cmd/rgallery/main.go --media $(MEDIA_PATH) --data $(DATA_PATH) --cache $(CACHE_PATH) TZ=$(TZ)
+	PORT=$(PORT) TZ=$(TZ) go run $(FLAGS) ./cmd/rgallery/main.go --media $(MEDIA_PATH) --data $(DATA_PATH) --cache $(CACHE_PATH)
 
 resize:
 	go run ./cmd/rgallery-resize/main.go

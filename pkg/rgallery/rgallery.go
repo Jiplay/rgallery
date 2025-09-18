@@ -25,7 +25,10 @@ type Middleware func(http.HandlerFunc) http.HandlerFunc
 type UserCredentials = types.UserCredentials
 
 func SetupApp(Commit, Tag string) {
-	port := "3000"
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "3000"
+	}
 	metricsPort := "3001"
 
 	var tz string
