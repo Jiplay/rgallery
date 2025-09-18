@@ -52,6 +52,15 @@ DEV_FLAGS=--location-dataset=Countries10
 run:
 	go run $(FLAGS) ./cmd/rgallery/main.go -dev --disable-auth $(DEV_FLAGS)
 
+# Server deployment (without Docker)
+MEDIA_PATH ?= ./media
+DATA_PATH ?= ./data
+CACHE_PATH ?= ./cache
+
+.PHONY: run-server
+run-server:
+	go run $(FLAGS) ./cmd/rgallery/main.go --media $(MEDIA_PATH) --data $(DATA_PATH) --cache $(CACHE_PATH) TZ=$(TZ)
+
 resize:
 	go run ./cmd/rgallery-resize/main.go
 
